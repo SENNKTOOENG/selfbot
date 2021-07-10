@@ -1,5 +1,16 @@
-from function import *
 
+from LineAPI.linepy import *
+from LineAPI.akad.ttypes import Message
+from LineAPI.akad.ttypes import ContentType as Type
+from LineAPI.akad.ttypes import ChatRoomAnnouncementContents
+from LineAPI.akad.ttypes import ChatRoomAnnouncement
+from datetime import datetime, timedelta
+from time import sleep
+from bs4 import BeautifulSoup
+from humanfriendly import format_timespan, format_size, format_number, format_length
+import time, random, multiprocessing, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib3, urllib.parse, html5lib, wikipedia, atexit, timeit, pafy, youtube_dl, traceback
+from gtts import gTTS
+from googletrans import Translator
 
 cl = BE_Team(myToken="u79a0193e5dca96f0f7c95db8c05a56ad
             myApp="ANDROIDLITE\t2.14.0\tAndroid OS\t5.1.1")
